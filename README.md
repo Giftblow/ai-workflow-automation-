@@ -1,5 +1,10 @@
-# AI-Assisted Research Summary Generator
+# AI Workflow Automation
 
+> AI-driven operational solutions leveraging Python, SQL, and the Claude API platform.
+
+## Project Overview
+
+This repository contains automated workflows and scripts designed to optimize business operations, streamline research and drafting, and improve reporting efficiency. [cite_start]It bridges administrative management with AI-driven process automation[cite: 6, 7].
 A small Python script that batch-processes a list of business/operations
 topics through the Claude API and writes structured summaries (executive
 summary, key insights, recommended workflow) to a CSV file — built as a
@@ -50,10 +55,12 @@ python claude_automation.py --topics topics.txt --output results.csv
 
 Each line of the topics file becomes one row in the output CSV.
 
-## Tech stack
+## Tech Stack & Tools
 
-- **Language:** Python 3.10+
-- **API:** [Anthropic Claude API](https://docs.claude.com) (`anthropic` Python SDK)
+- **Languages:** Python, SQL [cite: 7, 11]
+- **AI Platform:** Anthropic Claude API (Claude 101, Platform 101) [cite: 7, 11, 44]
+- **Data & Reporting:** SQL Database Querying, Advanced Excel [cite: 11, 36]
+- **Operations & Management:** Process Automation, SOP Development, Prompt Engineering [cite: 11]
 - **Output:** CSV, for easy import into Excel/Sheets or downstream reporting
 
 ## Ideas for extending
