@@ -28,3 +28,32 @@ git clone [https://github.com/Marvellousblow/ai-workflow-automation.git](https:/
 cd ai-workflow-automation
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY="your-api-key-here"
+
+## Usage  
+
+python claude_automation.py
+python claude_automation.py --topics topics.txt --output results.csv
+
+## Tech Stack & Tools
+
+Languages: Python, SQL
+AI Platform: Anthropic Claude API (Claude 101, Platform 101)
+Data & Reporting: SQL Database Querying, Advanced Excel
+Operations & Management: Process Automation, SOP Development, Prompt Engineering
+Output: CSV, for easy import into Excel/Sheets or downstream reporting
+
+## Ideas for Extending
+
+Pull topics directly from a Google Sheet or Notion database instead of a text file.
+Add retry logic with backoff for transient API errors.
+Schedule as a recurring job (cron / GitHub Actions) for a standing research digest.
+Parse the structured summary into separate CSV columns (summary / insights / workflow) instead of one text blob
+
+## License
+
+MIT — feel free to fork and adapt.
+---
+**Author:** Marvellous Gift Ighoyivwi  
+**Role:** AI Operations & Business Support Specialist  
+**Email:** imarvellousgift@gmail.com  
+**Connect:** (https://linkedin.com/in/marvellous-ighoyivwi-3b45a8417)
