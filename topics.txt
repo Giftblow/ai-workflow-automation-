@@ -1,0 +1,3 @@
+Automating client onboarding via CRM and webhooks
+Reducing manual data entry in monthly reporting
+Standardizing async communication for remote teams
