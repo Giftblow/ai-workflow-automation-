@@ -1,4 +1,5 @@
 # Example Output
+
 Illustrative example of what `results_<timestamp>.csv` looks like after running
 the script against `topics.txt`. (Generated once locally and pasted here so
 visitors can see the shape of the output without needing an API key.)
