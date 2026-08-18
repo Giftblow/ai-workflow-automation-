@@ -33,17 +33,10 @@ see [Ideas for extending](#ideas-for-extending) below.
 ## Setup
 
 ```bash
-git clone https://github.com/Marvellousblow/ai-workflow-automation-.git
-cd ai-workflow-automation-
+git clone [https://github.com/Marvellousblow/ai-workflow-automation.git](https://github.com/Marvellousblow/ai-workflow-automation.git)
+cd ai-workflow-automation
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY="your-api-key-here"
-```
-
-## Usage
-
-Run with the default sample topics:
-
-```bash
+export ANTHROPIC_API_KEY="your-api-key-here"ash
 python claude_automation.py
 ```
 
@@ -73,3 +66,8 @@ Each line of the topics file becomes one row in the output CSV.
 ## License
 
 MIT — feel free to fork and adapt.
+
+---
+**Author:** Marvellous Gift Ighoyivwi  
+**Role:** AI Operations & Business Support Specialist  
+**Connect:** [LinkedIn](https://linkedin.com/in/marvellous-ighoyivwi-3b45a8417)
